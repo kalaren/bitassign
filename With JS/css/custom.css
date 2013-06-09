@@ -1,0 +1,219 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p {
+	font-size: 14px;
+	padding-left: 5px;
+	margin-top: -5px;
+}
+
+p.bot {
+	font-size: 10px;
+	padding-top: 10px;
+}
+
+li {
+	padding-top: 5px;
+	font-size: 14px;
+}
+
+td.top {
+	font-size: 12px;
+	width: 15em;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a.top {
+	color: white;
+}
+
+a.sub{
+	color: #5885AD;
+}
+
+.container-top {
+	margin-left: auto;
+	margin-right: auto;
+	width: 925px;
+	color: white;
+}
+
+.container-main {
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	width: 940px;
+}
+
+.container-bot {
+	color: #c4c4c4;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	width: 900px;
+	border-top:1px solid #c4c4c4;
+	padding-top: 5px;
+}
+
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-center {
+  text-align: center;
+}
+.float-right {
+	float: right;
+}
+
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 5px;
+}
+.span3 { width: 300px; }
+.span2 { width: 450px; }
+.span1 { width: 900px; }
+
+.span2:nth-child(2) {
+	margin-left: 20px
+}
+
+#bar {
+	position:absolute;
+	width: 100%;
+	height: 70px;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+	background-image: -ms-linear-gradient(top, #737373 0%, #3B3B3D 100%);
+	background-image: -moz-linear-gradient(top, #737373 0%, #3B3B3D 100%);
+	background-image: -o-linear-gradient(top, #737373 0%, #3B3B3D 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #737373), color-stop(1, #3B3B3D));
+	background-image: -webkit-linear-gradient(top, #737373 0%, #3B3B3D 100%);
+	background-image: linear-gradient(to bottom, #737373 0%, #3B3B3D 100%);
+}
+
+#footer {
+	margin-top: 20px;
+}
+
+.name {
+	margin-top: 20px;
+	font-size: 48px;
+}
+
+.col-sub {
+	font-size: 16px;
+	font-weight: 700;
+	margin: 5px 20px;
+}
+
+.address {
+	margin-top: 35px;
+	font-size: 12px;
+	color: black;
+}
+
+.skill {
+	display: inline-block;
+	padding: 0px 5px 0px;
+	margin-bottom: 3px;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	text-shadow:0 1px 0 rgba(0,0,0,0.25);
+	background-color: #999;
+	border-radius:3px
+}
+
+.col-title {
+	color: white;
+	font-size: 24px;
+	font-weight: 700;
+	padding: 8px 20px 10px;
+	background-image:-moz-linear-gradient(top,#ee5f5b,#bd362f);
+	background-image:-ms-linear-gradient(top,#ee5f5b,#bd362f);
+	background-image:-webkit-gradient(linear,0 0,0 100%,from(#ee5f5b),to(#bd362f));
+	background-image:-webkit-linear-gradient(top,#ee5f5b,#bd362f);
+	background-image:-o-linear-gradient(top,#ee5f5b,#bd362f);
+	background-image:linear-gradient(top,#ee5f5b,#bd362f);
+	border-radius: 4px;
+}
+
+.col-title:hover {
+	background-image: -ms-linear-gradient(top, #737373 0%, #3B3B3D 100%);
+	background-image: -moz-linear-gradient(top, #737373 0%, #3B3B3D 100%);
+	background-image: -o-linear-gradient(top, #737373 0%, #3B3B3D 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #737373), color-stop(1, #3B3B3D));
+	background-image: -webkit-linear-gradient(top, #737373 0%, #3B3B3D 100%);
+	background-image: linear-gradient(to bottom, #737373 0%, #3B3B3D 100%);
+	z-index: 50;
+}
+
+table.top {
+	margin-top: 10px 
+}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+img.avatar {
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+[class^="icon-"], 
+[class*=" icon-"]{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	line-height:14px;
+	vertical-align:top;
+	background-image:url("../img/glyphicons-halflings.png");
+	background-position:14px 14px;background-repeat:no-repeat;
+	*margin-right:.3em
+}
+.icon-white{
+	background-image:url("../img/glyphicons-halflings-white.png")
+}
+.icon-book {
+	background-position:-48px -48px
+}
+.icon-user {
+	background-position:-168px 0
+}
+.icon-bell {
+	background-position:-48px -144px
+}
+.icon-envelope {
+	background-position:-72px 0
+}
+.icon-retweet {
+	background-position:-336px -120px
+}
+.icon-headphones {
+	background-position:-336px -24px
+}
+.icon-camera {
+	background-position:-120px -48px
+}
+.icon-wrench {
+	background-position:-360px -144px
+}
+.icon-chevron-down {
+  background-position: -313px -119px;
+}
